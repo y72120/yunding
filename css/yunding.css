@@ -1,0 +1,315 @@
+.container{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1680px;
+}
+.top{
+    width:1680px;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    border:none;
+    background:none;
+    margin:50px;
+}
+#button1:hover{
+    cursor:pointer;
+    font-size:20px;
+    transform: translate(10px,0px);
+}
+#button2:hover{
+    cursor:pointer;
+    font-size:20px;
+    transform: translate(-10px,0px);
+}
+.Animal-Photography{
+    width:1680px;
+    height:770px;
+    background-image:url('https://yunding-yyy.oss-cn-shanghai.aliyuncs.com/%E4%B9%8C%E9%BE%9F.jpg');
+    background-size:cover;
+}
+.camera{
+    margin-top:-50px;
+    width:150px;
+    height:150px;
+    margin-left:740px;
+    transition: width 1s,height 1s,transform 1s,margin 1s; 
+}
+.camera:hover{
+    transform:translate(25px,25px);
+    width:100px;
+    height:100px;
+    margin-bottom:50px;
+}
+.word-animal1{
+    display: block;
+    color:rgb(48, 75, 2);
+    text-align:center;
+}
+.word-animal2{
+    display: block;
+    width:700px;
+    color:rgb(48, 75, 2);
+    font-weight:bold;
+    text-align:left;
+    word-spacing: 10px;
+    margin:auto;
+}
+.explore{
+    display:block;
+    background:rgb(48,75,2);
+    text-decoration: none;
+    color:white;
+    width:120px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    margin-top:50px;
+    margin-left:480px;
+}
+.bird-district{
+    width:1680px;
+    height:700px;
+}
+.blank{
+    display: inline-block;
+    width:290px;
+}
+.bird{
+    display: inline-block;
+    height:500px;
+    margin-top:-100px;
+    margin-right:50px;
+    transition: transform 1s;
+}
+
+.bird:hover{
+    transform:translate(0,-75px);
+}
+.bird-word{
+    font-size:50px;
+    position: relative;
+    text-align:right;
+    top:-200px;
+    right:40px;
+    color:white;
+}
+.deer{
+    width:1680px;
+    height:770px;
+    background-image:url('https://yunding-yyy.oss-cn-shanghai.aliyuncs.com/%E9%B9%BF.jpg');
+    background-size:cover;
+}
+.word-deer{
+    display:inline-block;
+    background-color: rgb(186, 183, 183);
+    color:rgb(48, 75, 2);
+    margin-left:440px;
+    margin-top:-50px;
+    width:700px;
+    height:350px;
+    padding:50px;
+    transition: transform 1s;
+}
+.word-deer:hover{
+    transform: translate(0px,-50px);
+}
+.signin{
+    display: block;
+    background-color: rgb(48, 75, 2);
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    line-height:50px;
+    width:100px;
+    height:50px;
+    font-size:20px;
+    margin-top:100px;
+    margin-left:300px;
+    transition: transform 0.5s;
+}
+.signin:hover{
+    transform: scale(0.8);
+}
+.more{
+    width:1680px;
+    height:1800px;
+}
+.difference{
+    width:250px;
+    margin-top:50px;
+    font-size:50px;
+    margin-left:715px;
+    color:rgb(48, 75, 2);
+}
+.difference::before{
+    content: "";
+    width: 0px;
+    height:0px;
+    position: absolute;
+    border:solid 3px transparent;
+}
+.difference:hover::before{
+    width:245px;
+    height:60px;
+    border-top-color:rgb(48, 75, 2);
+    border-right-color:rgb(48, 75, 2);
+    transition: width 0.2s linear,height 0.3s ease-in;
+}
+.difference::after{
+    content: "";
+    position: absolute;
+    width:0px;
+    height:0px;
+    margin-top:60px;
+    border:solid 3px transparent;
+    transition:margin-left 0.2s linear,margin-top 0.3s ease-in,width 0.2s linear,height 0.3s ease-in,border-color 0.3s;
+}
+.difference:hover::after{
+    transition-delay: 0.3s; 
+    margin-left:-245px;
+    margin-top:0px;
+    width:245px;
+    height:60px;
+    border-bottom-color:rgb(48, 75, 2);
+    border-left-color:rgb(48, 75, 2);
+}
+.picture-animal{
+    margin:auto;
+    margin-top:40px;
+    width:1300px;
+    height:400px;
+    display: flex;
+    justify-content: space-between;
+}
+.picture{
+    width:263px;
+    height:400px;
+    background-color: rgb(206, 197, 197);
+    transition: 1s;
+}
+.story{
+    display: block;
+    text-align: center;
+    color:rgb(48, 75, 2)
+}
+#down-line{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.picture:hover{
+    transform: translate(0px,-30px);
+}
+.know-more{
+    display: block;
+    font-size:30px;
+    color:rgb(48,75,2);
+    width:250px;
+    height:50px;
+    line-height: 50px;;
+    text-align: center;
+    word-spacing: 20px;
+    margin:auto;
+    margin-top:75px;
+    border:solid;
+    transition: 1s;
+}
+.know-more:hover{
+    color:white;
+    background-color: rgb(48, 75, 2);
+}
+.songshu{
+    width:1400px;
+    height:1020px;
+    margin:auto;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-bar{
+    width:600px;
+    height:1020px;
+    color:rgb(48, 75, 2);
+}
+.line-bar{
+    width:600px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    margin-bottom:70px;
+    transition: 0.5s linear;
+}
+.circle{
+   width:50px;
+   height:50px;
+   border:solid rgb(48, 75, 2);
+   border-radius:25px;
+   text-align: center;
+   line-height: 50px;
+   margin-left: 50px;
+   margin-right:50px;
+}
+.word{
+    display: block;
+    margin-left:50px;
+    margin-bottom:60px;
+    line-height: 20px;
+    transition: 1s;
+}
+#move-up:hover{
+    transform: translate(0,-30px);
+}
+#enlarge:hover{
+    font-size:20px;
+    line-height: 50px;
+}
+.line-bar:hover{
+    transform: translate(100px,0);
+}
+.bottom{
+    width:1680px;
+    height:400px;
+    display: flex;
+}
+.label{
+    width:700px;
+    height:400px;
+    margin-left:140px;
+}
+.two-in{
+    width:200px;
+    height:150px;
+    font-size:30px;
+    margin-left:200px;
+    margin-top:120px;
+    color:rgb(48, 75, 2);
+}
+.detail{
+    width:130px;
+    height:120px;
+    margin-left:470px;
+    margin-top:-160px;
+    color:rgb(179, 181, 174)
+}
+.bigworld{
+    color:white;
+    background-color: rgb(48, 75, 2);
+    font-size:25px;
+    text-align: center;
+    height:60px;
+    line-height: 60px;;
+    width:280px;
+    margin-left:250px;
+    margin-top:150px;
+    transition: 1s;
+}
+.bigworld:hover{
+    background-color: white;
+    color:rgb(48, 75, 2);
+    transform: translate(0,-30px);
+}

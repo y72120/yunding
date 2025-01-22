@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function putNum()
+            {
+                let str=document.getElementById("string").value;
+                let strSon=document.getElementById("stringSon").value;
+                let Num=(str.split(strSon)).length-1;
+                document.getElementById("put").innerHTML=`${Num}`;
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>请输入一个字符串:</p>
+        <input type="text" id="string">
+        <p>请输入一个子串:</p>
+        <input type="text" id="stringSon">
+        <button onclick="putNum()">提交</button>
+        <p>字串出现的次数为:</p>
+        <p id="put"></p>
+    </body>
+</html>
